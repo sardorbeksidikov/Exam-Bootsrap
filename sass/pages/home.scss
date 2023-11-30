@@ -1,0 +1,50 @@
+@import "";
+.header {
+  height: 100px;
+  .bread {
+    margin-top: 350px;
+  }
+  .home-navbar {
+    height: 100px;
+    .offcanvas {
+      .nav-link {
+        text-transform: capitalize;
+        color: $text-color;
+        font-family: "Open Sans";
+        font-size: 16px;
+        font-weight: 400;
+        &:hover {
+          color: $text-hever;
+        }
+      }
+      .nav__btn {
+        padding: 10px 40px;
+        border-radius: 25px;
+        border: 1px solid black;
+        background-color: red;
+        font-family: "Open Sans";
+        color: $text-color;
+        transition: 0.5s;
+        &:hover {
+          background-color: orange;
+        }
+      }
+    }
+    .nav-btn {
+      padding: 10px 40px;
+    }
+  }
+}
+
+.main {
+  height: 2500px;
+  @media (max-width: 576px) {
+    height: 5900px;
+  }
+  @media (max-width: 768px) {
+    height: 5900px;
+  }
+  @media (max-width: 992px) {
+    height: 5900px;
+  }
+}

@@ -1,0 +1,35 @@
+.header {
+  height: 100px;
+}
+.header .bread {
+  margin-top: 350px;
+}
+.header .home-navbar {
+  height: 100px;
+}
+.header .home-navbar .offcanvas .nav-link {
+  text-transform: capitalize;
+  color: orange;
+}
+.header .home-navbar .offcanvas .nav-btn {
+  padding: 10px 40px;
+}
+
+.main {
+  height: 2500px;
+}
+@media (max-width: 576px) {
+  .main {
+    height: 5900px;
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    height: 5900px;
+  }
+}
+@media (max-width: 992px) {
+  .main {
+    height: 5900px;
+  }
+}

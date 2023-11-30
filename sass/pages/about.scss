@@ -1,0 +1,60 @@
+.header {
+  height: 100px;
+  margin-bottom: 200px;
+
+  .home-navbar {
+    height: 100px;
+    .offcanvas {
+      .about__text {
+        padding: 200px;
+        .nav-link {
+          text-transform: capitalize;
+          color: rgb(227, 227, 227);
+          font-family: "Open Sans";
+          font-size: 16px;
+          font-weight: 400;
+          &:hover {
+            color: orange;
+          }
+        }
+        .nav__btn {
+          padding: 10px 40px;
+          border-radius: 25px;
+          border: 1px solid black;
+          background-color: red;
+          font-family: "Open Sans";
+          color: rgb(237, 237, 237);
+          transition: 0.5s;
+          &:hover {
+            background-color: orange;
+          }
+        }
+      }
+    }
+    .nav-btn {
+      padding: 10px 40px;
+    }
+  }
+}
+.section {
+  .about__section {
+    padding: 100px;
+    .about__text {
+      padding: 100px;
+      color: #242424;
+      text-align: right;
+      font-family: "Cera Round Pro Demo";
+      font-size: 64px;
+      font-weight: 500;
+      padding: 50px;
+    }
+    .about__paragraph {
+      max-width: 720px;
+      margin-top: 20px;
+      color: #242424;
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+}

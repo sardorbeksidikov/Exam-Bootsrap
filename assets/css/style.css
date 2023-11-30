@@ -1,0 +1,145 @@
+/* inter-500 - latin */
+@import url("https://fonts.cdnfonts.com/css/cera-round-pro-demo?styles=152405,152403,152402");
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/inter-v13-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+.header {
+  height: 800px;
+  background-color: #BB2339;
+}
+.header .navbar {
+  background-color: #BB2339;
+  height: 94px;
+}
+.header .navbar .offcanvas {
+  background-color: #BB2339;
+}
+.header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-link {
+  text-transform: capitalize;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.header .navbar .offcanvas .offcanvas-body .navbar-nav .nav-link:hover {
+  color: orange;
+}
+.header .navbar .offcanvas .offcanvas-body .navbar-nav .nav__btn {
+  padding: 10px 40px;
+  border-radius: 25px;
+  border: 1px solid rgb(218, 218, 218);
+  background-color: #BB2339;
+  font-family: "Open Sans";
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header .navbar .offcanvas .offcanvas-body .navbar-nav .nav__btn:hover {
+  background-color: rgb(255, 185, 80);
+}
+.header .section {
+  padding-top: 150px;
+}
+.header .section .header-left .left__title {
+  color: rgb(218, 218, 218);
+  font-family: "Cera Round Pro Demo";
+  font-size: 23px;
+  font-weight: 700;
+}
+.header .section .header-left .left__main {
+  max-width: 555px;
+  color: rgb(218, 218, 218);
+  font-family: "Cera Round Pro Demo";
+  font-size: 90px;
+  font-weight: 700;
+}
+.header .section .header-left .left__paragraph {
+  max-width: 453px;
+  color: rgb(218, 218, 218);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.header .section .header-left .left__btn {
+  padding: 8px 32px;
+  border-radius: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #BB2339;
+  border: 1px solid rgb(218, 218, 218);
+  color: rgb(218, 218, 218);
+  font-family: "Cera Round Pro Demo";
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header .section .header-left .left__btn:hover {
+  background-color: rgb(255, 185, 80);
+}
+@media (max-width: 992px) {
+  .header .section .header-left .section {
+    display: grid;
+    grid-row: 1fr;
+  }
+  .header .section .header-left .text {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .header .section .header-left .left__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+}
+
+main {
+  background-color: rgb(218, 218, 218);
+}
+main .site-main-slide-card .container .corousel__text {
+  color: #BB2339;
+  font-family: "Cera Round Pro Demo";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1.44px;
+  text-transform: capitalize;
+}
+main .site-main-slide-card .container .carousel__card {
+  width: 310px;
+  height: 396px;
+  border-radius: 14px;
+  background: #fff;
+}
+
+.vedio-full {
+  padding: 220px 0px;
+  position: relative;
+}
+
+.photo-gallery {
+  height: 800px;
+  padding: 130px 0px;
+}
+
+.footer {
+  height: 710px;
+  background: #bb2339;
+  padding: 317px 0px 40px 0px;
+}
