@@ -1,39 +1,24 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Cera Round Pro DEMO", sans-serif;
-  font-weight: 500;
-}
-
-p,
-span,
-strong,
-em,
-i {
-  font-family: "Cera Round Pro DEMO", sans-serif;
-}
-
 .header {
   height: 100px;
+}
+
+nav {
+  padding: 20px;
 }
 
 .navbar {
   height: 100px;
 }
-.navbar .offcanvas .offcanvas-body .nav-link {
-  text-transform: capitalize;
+.navbar .offcanvas-body .nav-item .nav-link {
   color: white;
-  font-family: "Cera Round Pro DEMO", sans-serif;
+  text-transform: capitalize;
   font-weight: 500;
 }
-.navbar .offcanvas .offcanvas-body .nav-link:hover {
+.navbar .offcanvas-body .nav-item .nav-link:hover {
   text-decoration: underline;
 }
-.navbar .offcanvas .offcanvas-body .navbar-nav .nav-btn {
-  padding: 10px 40px !important;
+.navbar .offcanvas-body .nav-btn {
+  padding: 10px 40px;
 }
 
 .main {

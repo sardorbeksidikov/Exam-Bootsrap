@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Menu</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../../sass/pages/home.scss" />
+    <link rel="stylesheet" href="../css/menu.css" />
   </head>
+
   <body>
     <!-- header  -->
-    <header class="header">
-      <nav class="home-navbar bg-danger navbar-expand-lg fixed-top">
+    <header class="home-header">
+      <nav class="navbar bg-danger navbar-expand-lg fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img src="../images/login.svg" alt=""
@@ -43,31 +44,32 @@
               <ul
                 class="navbar-nav justify-content-end align-items-center flex-grow-1 gap-4">
                 <li class="nav-item">
-                  <a class="nav-link rounded-2 p-md-3" href="../../index.html"
+                  <a class="nav-link text-light rounded-2 p-md-3" href="../../index.html"
                     >menu</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link rounded-2 p-md-3" href="./news.html"
+                  <a class="nav-link text-light rounded-2 p-md-3" href="../pages/news.html"
                     >news</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link rounded-2 p-md-3"
+                    class="nav-link text-light rounded-2 p-md-3"
                     href="../pages/about.html"
                     >About us</a
                   >
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link rounded-2 p-md-3"
+                    class="nav-link text-light rounded-2 p-md-3"
                     href="../pages/contact.html"
                     >contact us</a
                   >
                 </li>
                 <div>
-                  <button class="nav__btn rounded-5 btn btn-outline-light">
+                  <button
+                    class="btn-nav rounded-5 btn border-secondary btn-outline-warning">
                     Login
                   </button>
                 </div>
@@ -77,80 +79,223 @@
         </div>
       </nav>
     </header>
-    <!-- main  -->
-    <main class="main">
+
+    <main class="home-main pb-5">
       <div class="container">
-        <!-- bredcrumb -->
         <nav aria-label="breadcrumb" class="mt-5 brea">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">Menu</li>
           </ol>
         </nav>
+
         <div class="row">
-          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-12 col-sm-12">
+          <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-12 col-sm-12 mb-5">
             <div class="bg-danger p-5 rounded-4">
               <a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light"
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info"
                 >All</a
               >
               <br />
               <br />
               <a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light"
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info"
                 >Kebabs</a
               >
               <br />
               <br />
               <a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light"
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info"
                 >Pides</a
               >
               <br />
               <br />
               <a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light"
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info"
                 >Burgers</a
               >
               <br />
               <br />
               <a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light"
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info"
                 >OTHER DISHES
               </a>
               <br />
               <br /><a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light">
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info">
                 SIDES</a
               >
               <br />
               <br /><a
                 href="#"
-                class="text-decoration-none p-2 d-inline-block border border-2 rounded-4 w-50 btn btn-outline-light">
+                class="text-decoration-none p-3 d-inline-block border border-2 rounded-5 w-100 btn btn-outline-info">
                 DRINKS</a
               >
               <br />
               <br />
               <a
                 href=""
-                class="text-decoration-none btn btn-outline-light p-2 d-inline-block border border-2 rounded-4 w-50">
+                class="text-decoration-none btn btn-outline-light p-3 d-inline-block border border-2 rounded-5 w-100">
                 DESSERTS</a
               >
             </div>
           </div>
-
-          <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-12 col-sm-12"></div>
+          <!-- left column menu -->
+          <div class="col-xxl-9 col-xl-9 col-lg-8 col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title text-center">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="row__number text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 mb-4">
+                <div class="card">
+                  <img src="../images/shashlik.png" class="img-fluid" alt="" />
+                  <div class="card-body text-center pb-5">
+                    <img src="../images/kebab.png" alt="">
+                    <h2 class="card-title">
+                      Barbecue Shish kebab Shashlik Skewer
+                    </h2>
+                    <strong class="card-paragriph text-danger mb-4"
+                      >$12.00</strong
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
     <!-- footer -->
-    <footer class="news-footer bg-danger">
+    <footer class="home-footer bg-danger pt-5">
       <div
         class="footer-newslater row rounded-4 box-sa bg-danger w-75 mx-auto"
         style="
@@ -206,7 +351,7 @@
           </div>
           <div
             class="col-xxl-4 col-xl-4 text-center mb-5 col-lg-12 col-md-12 col-sm12">
-            <img src="../images/footer-logo.svg" class="mb-5" alt="img" />
+            <img src="../images/footer-logo.svg" class="mb-5" alt="logo" />
             <p class="lead text-white mb-5">
               "The best way to find yourself is to lose yourself in the service
               of others.”
@@ -263,6 +408,8 @@
         </div>
       </div>
     </footer>
+    <script src="/assets/js/min.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

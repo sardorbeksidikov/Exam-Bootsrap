@@ -1,50 +1,32 @@
-$ceraRound: "Cera Round Pro DEMO", sans-serif;
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $ceraRound;
-  font-weight: 500;
-}
-
-p,
-span,
-strong,
-em,
-i {
-  font-family: $ceraRound;
-}
 
 .header {
   height: 100px;
 }
+nav {
+  padding: 20px;
+}
+
 .navbar {
   height: 100px;
-  .offcanvas {
-    .offcanvas-body {
+  .offcanvas-body {
+    .nav-item { 
       .nav-link {
-        text-transform: capitalize;
         color: white;
-        font-family: $ceraRound;
+        text-transform: capitalize;
         font-weight: 500;
         &:hover {
           text-decoration: underline;
         }
       }
-      .navbar-nav {
-        .nav-btn {
-          padding: 10px 40px !important;
-        }
-      }
+    }
+    .nav-btn {
+      padding: 10px 40px;
     }
   }
 }
 
 .main {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   height: 2500px;
   @media (max-width: 992px) {
     height: 6500px;
